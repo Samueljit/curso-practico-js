@@ -9,7 +9,19 @@ function calculateDiscountPrice(price, discount) {
     return priceWithDiscount;
 }
 
+function buttonPriceDiscount() {
+    const inputPrice = document.getElementById("InputPrice");
+    const priceValue = inputPrice.value;
 
+    const inputDiscount = document.getElementById("InputDiscount");
+    const discountValue = inputDiscount.value;
+
+    const priceWithDiscount = calculateDiscountPrice(priceValue, discountValue);
+
+    const resultPrice = document.getElementById("ResultPrice");
+    resultPrice.innerText = `Your price with discount is : $${priceWithDiscount}`
+
+}
 
 // console.log({
 //     OriginalPrice,

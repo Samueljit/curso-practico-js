@@ -2,16 +2,25 @@
 
 ...
 
-## Taller #1: figuras geométricas
+## Workshop #1: geometric figures
 
-- Primer paso: definir las fórmulas
-- Segundo paso: inplemetar formúlas con JS
-- Tercer paso: crear funciones
-- Cuarto paso: integrar JS con HTML. 
+- First step: define the formulas
+- Second step: inplemetar formulate them with JS
+- Third step: create functions
+- Fourth step: integrate JS with HTML. 
 
-## Taller #2: Porcentajes y descuentos
+## Workshop #2: percentages and discounts
 
-- Primer paso: definir las fórmulas
-- Segundo paso: inplemetar formúlas con JS
-- Tercer paso: crear funciones
-- Cuarto paso: integrar JS con HTML. 
+- First step: define the formulas
+- Second step: inplemetar formulate them with JS
+- Third step: create functions
+- Fourth step: integrate JS with HTML.
+
+
+
+## Taller #3: Average, Median and Mode
+
+- First step: define the formulas
+- Second step: inplemetar formulate them with JS
+- Third step: create functions
+- Fourth step: integrate JS with HTML.
