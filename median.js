@@ -8,15 +8,6 @@ function calculateAverage(list) {
     return averageList;
 }
 
-const list1 = [
-    100,
-    200,
-    500,
-    6000
-]
-
-const halfList1 = parseInt(list1.length)
-
 function isPar(num){
     if (num % 2 === 0) {
         return
@@ -26,14 +17,16 @@ function isPar(num){
 }
 
 let median;
-
-if (isPar(list1.length)) {
-    const element1 = list1[halfList1 - 1];
-    const element2 = list1[halfList1];
+function medianF(list){
+    const halfList = parseInt(list.length)
+if (isPar(list.length)) {
+    const element1 = list[halfList - 1];
+    const element2 = list[halfList];
 
     const averageElement1And2 = calculateAverage([element1, element2]);
 
     median = averageElement1And2;
 } else {
-    median = list1(halfList1)
+    median = list(halfList)
+}
 }
